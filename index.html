@@ -1,91 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Irish-times-one-pager by cgarvey</title>
-  </head>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<title>IrishTimes.com single-page article bookmarklet, by Cathal Garvey</title>
+	</head>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+	<body>
+		<div id="container">
+			<div class="inner">
+				<header>
+					<h1>Irish-times-one-pager</h1>
+					<h2>A browser bookmarklet to turn multi-page Irish Times articles in to a single page for easier reading.</h2>
+				</header>
+				<hr />
 
-        <header>
-          <h1>Irish-times-one-pager</h1>
-          <h2>A browser bookmarklet to turn multi-page Irish Times articles in to a single page for easier reading.</h2>
-        </header>
+				<section id="main_content" class="clearfix">
+					<p style="text-align: center;"><em>TL;DR</em> Install this bookmark:<br /><a style="float: none; text-align: center; margin: 0 auto;" class="button" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrishTimes 1 Pager</a></p>
+					<hr />
+					
+					<h2>Usage</h2>
+					<ul>
+						<li>Install the bookmarklet, below, in to your browser's bookmark menu/bar. The bookmarklet should work on any modern browser (e.g. Google Chrome, Mozilla Firefox, etc.).</li>
+						<li>When visiting any page on the <a href="http://www.irishtimes.com/">Irish Times website</a>, click on the bookmarklet in your bookrmark bar/menu to turn the multi-page article in to a single page.</li>
+					</ul>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/cgarvey/irish-times-one-pager/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/cgarvey/irish-times-one-pager/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/cgarvey/irish-times-one-pager" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+					<h2>Installation</h2>
+					<ul>
+						<li><strong>Mozilla Firfox (v3+)</strong><br />Drag this link to your bookmark tool bar: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrishTimes 1 Pager</a>.</li>
+						<li><strong>Google Chrome (v5+):</strong><br />Drag this link to your bookmark tool bar: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrishTimes 1 Pager</a>.</li>
+						<li><strong>Internet Explorer (v6-8):</strong><br />Right-click this link and <code>Add to favourites</code>, choose <code>Yes</code> to the securty confirmation prompt. Name it what you like, and change <code>Create in</code> to be your <code>Favourites Bar</code>. Here's the link to righ-click: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrishTimes 1 Pager</a>.</li>
+						<li><strong>Internet Explorer (v9+):</strong><br />Drag this link to your bookmark tool bar: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrishTimes 1 Pager</a>.</li>
+						<li>In all cases you can right-click your new bookmarklet and edit its properties to give it a short name (<em>e.g. &quot;IT&quot;</em>) so that it doesn't take up too much space on your bar.</li>
+					</ul>
+					
+					<h2>Support</h2>
+					<p>No support is provided, but if you can open an <a href="https://github.com/cgarvey/irish-times-one-pager/issues" title="Project Issues page on GitHub">issue on the GitHub project</a>, or report any bugs to me at <a href="http://twitter.com/cgarvey" title="Link to @cgarvey on Twitter">Twitter, @cgarvey</a>.</p>
 
-        <hr>
+					<h2>License</h2>
+					<p><strong>Copyright 2013 Cathal Garvey. <a href="http://cgarvey.ie/">http://cgarvey.ie/</a></strong></p>
+					<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at</p>
+					<p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+					<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+					<p><em>(Free) commercial licensing available on request.</em></p>
+				</section>
+				<hr />
+				
+				<section id="downloads" class="clearfix">
+					<a href="https://github.com/cgarvey/irish-times-one-pager/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+					<a href="https://github.com/cgarvey/irish-times-one-pager/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+					<a href="https://github.com/cgarvey/irish-times-one-pager" id="view-on-github" class="button"><span>View on GitHub</span></a>
+				</section>
 
-        <section id="main_content">
-          <h1>Irish Times One-Pager</h1>
-
-<p>This is a bookmarklet to turn any multi-page article on IrishTimes.com in to a single page article.</p>
-
-<p><em>TL;DR</em> Install this bookmark: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrTimes1Pg</a>.</p>
-
-<h2>Usage</h2>
-
-<ul>
-<li>Install the bookmarklet, below, in to your browser's bookmark menu/bar. The bookmarklet should work on any modern browser (e.g. Google Chrome, Mozilla Firefox, etc.).</li>
-<li>When visiting any page on the <a href="http://www.irishtimes.com/">Irish Times website</a>, click on the bookmarklet in your bookrmark bar/menu to turn the multi-page article in to a single page.</li>
-</ul><h2>Install</h2>
-
-<ul>
-<li>
-<strong>Mozilla Firfox</strong>
-
-<ul>
-<li>Drag this link to your bookmark tool bar: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrTimes1Pg</a>.</li>
-</ul>
-</li>
-<li>
-<strong>Google Chrome:</strong>
-
-<ul>
-<li>Drag this link to your bookmark tool bar: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrTimes1Pg</a>.</li>
-</ul>
-</li>
-<li>
-<strong>Internet Explorer:</strong>
-
-<ul>
-<li>Right-click this link and <code>Add to favourites</code>, choose <code>Yes</code> to the securty confirmation prompt. Name it what you like, and change <code>Create in</code> to be your <code>Favourites Bar</code>. Here's the link to righ-click: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://cgarvey.github.com/irish-times-one-pager/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrTimes1Pg</a>.</li>
-</ul>
-</li>
-</ul><h2>License</h2>
-
-<p><strong>Copyright 2013 Cathal Garvey. <a href="http://cgarvey.ie/">http://cgarvey.ie/</a></strong></p>
-
-<p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at</p>
-
-<p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
-
-<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
-
-<p><em>(Free) commercial licensing available on request.</em></p>
-        </section>
-
-        <footer>
-          Irish-times-one-pager is maintained by <a href="https://github.com/cgarvey">cgarvey</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
-    </div>
-  </body>
+				<footer>
+					Irish-times-one-pager is maintained by <a href="https://github.com/cgarvey">cgarvey</a><br>
+					This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+				</footer>
+			</div>
+		</div>
+	</body>
 </html>
