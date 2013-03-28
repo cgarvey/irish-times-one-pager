@@ -2,21 +2,13 @@ Irish Times One-Pager
 =====================
 This is a bookmarklet to turn any multi-page article on IrishTimes.com in to a single page article.
 
-*TL;DR* Install this bookmark: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/cgarvey/irish-times-one-pager/master/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrTimes1Pg</a>.
-
 Usage
 ------
-* Install the bookmarklet, below, in to your browser's bookmark menu/bar. The bookmarklet should work on any modern browser (e.g. Google Chrome, Mozilla Firefox, etc.).
-* When visiting any page on the [Irish Times website](http://www.irishtimes.com/), click on the bookmarklet in your bookrmark bar/menu to turn the multi-page article in to a single page.
+Visit the public website of this bookmarklet, http://cgarvey.github.com/irish-times-one-pager/ to grab a copy of the bookmarklet, and see how it should be used/installed.
 
-Install
--------
-* **Mozilla Firfox**
- + Drag this link to your bookmark tool bar: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/cgarvey/irish-times-one-pager/master/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrTimes1Pg</a>.
-* **Google Chrome:**
- + Drag this link to your bookmark tool bar: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/cgarvey/irish-times-one-pager/master/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrTimes1Pg</a>.
-* **Internet Explorer:**
- + Right-click this link and `Add to favourites`, choose `Yes` to the securty confirmation prompt. Name it what you like, and change `Create in` to be your `Favourites Bar`. Here's the link to righ-click: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/cgarvey/irish-times-one-pager/master/irish-times-one-pager.min.js';})();" title="Irish Times One Pager">IrTimes1Pg</a>.
+Contributing
+------------
+Feel free to report any issues (using GitHub issues), and/or pass along any pull requests you may have. You can find me [@cgarvey](http://twitter.com/cgarvey) on Twitter too, if you have specific questions.
 
 License
 -------
